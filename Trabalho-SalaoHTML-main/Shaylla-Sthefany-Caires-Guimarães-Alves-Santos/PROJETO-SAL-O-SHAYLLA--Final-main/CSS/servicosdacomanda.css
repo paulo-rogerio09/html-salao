@@ -1,0 +1,98 @@
+body {
+    background-color: #f8f9fa;
+    margin-left: 370px;
+}
+
+.linha{
+    border-right: 1px solid #FCD8E9;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color:#FF4081;
+}
+.direito{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.font-pink{
+    color:#FF4081
+}
+
+h6{
+    font-size: 18px;
+}
+.card-total{
+    width: 700px;
+    border-color: #FCD8E9;
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 700px;
+}
+.card-body{
+    width: 700px;
+    height: 500px;
+   
+}
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.btn-light{
+    width: 100px;
+    border-radius: 5px;
+    border-color: #FCD8E9;
+}
+
+.btn-apagar{
+    font-size: 20px;
+    color:#FF4081;
+    margin-top: 29px;
+    margin-left: 40px;
+}
+
+.btn-claro{
+    color:#FF4081;
+    background-color:#FCD8E9;
+    width: 100px;
+    margin-top: 24px;
+}
+a{
+    color:#FF4081;
+    font-weight: 600;
+    text-decoration: none;
+}
+.buttons{
+    margin-left: 199px;
+    margin-top: 250px;
+}
+.border-pink {
+    border: 1px solid #FCD8E9; 
+    padding:10px;          
+    border-radius: 5px; 
+}
+.caixas{
+    border-color: #FCD8E9;
+}
+.group1{
+    background-color: #ffe7f2;
+    border: 1px solid #FCD8E9;
+}
+
+.group2{
+    border: 1px solid #FCD8E9;
+    background-color: white;
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="CSS/ESTILO8.CSS" rel = "stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <div class="">
+        <nav class="navbar" style="background-color: #e6376b;">
+            <p class="titulo">Espaço Leide Ellen</p>
+            <p class="perfil"><i class="bi bi-person-circle"></i> Usuario <i class="bi bi-chevron-down"></i></p>
+          </nav>
+    </div>
+   
+   
+    
+</head>
+<body>
+  <div id="todo">
+      <div class="nav teste">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-calendar2-check"></i> Agenda <i class="bi bi-chevron-right margem1"></i></a>
+                <ul class="nav flex-column ml-3">
+                  <li class="nav-item titulo-mensagem"><a href="INDEX8.HTML" class="nav-link"><i class="bi bi-inbox-fill titulo-mensagem"></i> <label class="titulo-mensagem">Caixa</label></i></a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-currency-dollar"></i> Financeiro <i class="bi bi-chevron-right margem2"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-people-fill"></i> Clientes <i class="bi bi-chevron-right margem3"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-graph-up-arrow"></i> Relatórios <i class="bi bi-chevron-right margem4"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-scissors"></i> Serviços <i class="bi bi-chevron-right margem5"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-bag"></i> Produtos <i class="bi bi-chevron-right margem6"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-person-badge-fill"></i> Profissionnais <i class="bi bi-chevron-right margem7"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cor" href=""><i class="bi bi-gear-fill"></i> Configurar <i class="bi bi-chevron-right margem8"></i></a>
+              </li>
+          </ul>
+          </div>
+          <br>
+
+          <div class="card-body">
+            <BR>
+            <h5><b>Profissionais/Expediente</b></h5> 
+            <br>
+            <div class="row d-flex align-items-center gap-2">
+                <div class="form-group col-md-3">    
+                    <label><i class="bi bi-search"></i> Filtrar por:</label>
+                    <input type="text" class="form-control borda">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="datePicker" class="form-label">De:</label>
+                    <input type="date" class="form-control" id="datePicker">
+                </div>
+    
+                <div class="form-group col-md-2">
+                    <label for="datePicker" class="form-label">Até:</label>
+                    <input type="date" class="form-control" id="datePicker">
+                </div>
+                <div class="form-group col-md-2">
+                    <button type="button" class="btn btn-rosa btn-salvar mt-4">Buscar</button>
+                </div>
+            
+                <div class="form-group col-md-2">
+                    <button type="button" class="btn btn-rosa btn-salvar mt-4">Exibir todas</button>
+                </div>
+            </div>
+            
+            <br>
+            
+            <br>
+
+            <table class="table table-sm">
+              <thead class="borda">
+                  <tr>
+                      <th>
+                          <div class="form-group col-1">
+                              <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox1">Descrição</label>
+                                </div>
+                          </div>
+
+                      </th>
+                      <th>
+                          <div class="form-group col-1">
+                              <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox1">Status</label>
+                                </div>
+                          </div>
+                      </th>
+                      <th>
+                        <div class="form-group col-1">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" for="inlineCheckbox1">Saldo</label>
+                              </div>
+                        </div>
+
+                    </th>
+                      <th>
+                          <div class="form-group col-1">
+                              <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox1">ValorInicial</label>
+                                </div>
+                          </div>
+
+                      </th>
+                      <th>
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" for="inlineCheckbox1">Data do Caixa</label>
+                              </div>
+                        </div>
+
+                    </th>
+                      <th>
+                          <div class="form-group">
+                              <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox1">Data de Início</label>
+                                </div>
+                          </div>
+
+                      </th>
+                      <th>
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" for="inlineCheckbox1">Data de Fim</label>
+                              </div>
+                        </div>
+
+                    </th>
+                    <th>
+                      <div class="form-group">
+                          <div class="form-check form-check-inline">
+                              <label class="form-check-label" for="inlineCheckbox1">Profissional</label>
+                            </div>
+                      </div>
+
+                  </th>
+                  <th>
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineCheckbox1">Ações</label>
+                          </div>
+                    </div>
+
+                </th>
+              </tr>
+              </th>
+              </thead>
+               <tbody>
+                  <th>
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineCheckbox1"> </label>
+                          </div>
+                    </div>
+    
+                </th>
+                <th>
+                  <div class="form-group">
+                      <div class="form-check form-check-inline">
+                          <label class="form-check-label cinza" for="inlineCheckbox1">Aberto</label>
+                        </div>
+                  </div>
+  
+              </th>
+                <th>
+                  <div class="form-group">
+                      <div class="form-check form-check-inline">
+                          <label class="form-check-label cinza" for="inlineCheckbox1">R$ 230,00</label>
+                        </div>
+                  </div>
+              </th>
+              <th>
+                <div class="form-group">
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label cinza" for="inlineCheckbox1">R$ 200,00</label>
+                      </div>
+                </div>
+            </th>
+            <th>
+              <div class="form-group">
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023</label>
+                    </div>
+              </div>
+          </th>
+          <th>
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023 14:30</label>
+                  </div>
+            </div>
+        </th>
+        <th>
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label cinza" for="inlineCheckbox1"></label>
+                  </div>
+            </div>
+        </th>
+        <th>
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label cinza" for="inlineCheckbox1">Katirlly</label>
+                  </div>
+            </div>
+        </th>
+      <th>
+
+        
+        <div class="form-group">
+          
+            <div class="form-check form-check-inline">
+              <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+              </div>
+        </div>
+    </th>
+    </tbody>
+
+
+    <tbody>
+                  <th>
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label cinza" for="inlineCheckbox1"> </label>
+                          </div>
+                    </div>
+    
+                </th>
+                <th>
+                  <div class="form-group">
+                      <div class="form-check form-check-inline">
+                          <label class="form-check-label cinza" for="inlineCheckbox1">Fechado</label>
+                        </div>
+                  </div>
+  
+              </th>
+                <th>
+                  <div class="form-group">
+                      <div class="form-check form-check-inline">
+                          <label class="form-check-label cinza" for="inlineCheckbox1">R$ 3200,00</label>
+                        </div>
+                  </div>
+              </th>
+              <th>
+                <div class="form-group">
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label cinza" for="inlineCheckbox1">R$ 200,00</label>
+                      </div>
+                </div>
+            </th>
+            <th>
+              <div class="form-group">
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023</label>
+                    </div>
+              </div>
+          </th>
+          <th>
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023 14:30</label>
+                  </div>
+            </div>
+        </th>
+        <th>
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label cinza" for="inlineCheckbox1"></label>
+                  </div>
+            </div>
+        </th>
+        <th>
+            <div class="form-group">
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label cinza" for="inlineCheckbox1">Katirlly</label>
+                  </div>
+            </div>
+        </th>
+      <th>
+
+        
+        <div class="form-group">
+          
+            <div class="form-check form-check-inline">
+              <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+              </div>
+        </div>
+    </th>
+    </tbody>
+
+    <tbody>
+        <th>
+          <div class="form-group">
+              <div class="form-check form-check-inline">
+                  <label class="form-check-label cinza" for="inlineCheckbox1"> </label>
+                </div>
+          </div>
+
+      </th>
+      <th>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <label class="form-check-label cinza" for="inlineCheckbox1">Aberto</label>
+              </div>
+        </div>
+
+    </th>
+      <th>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <label class="form-check-label cinza" for="inlineCheckbox1">R$ 300,00</label>
+              </div>
+        </div>
+    </th>
+    <th>
+      <div class="form-group">
+          <div class="form-check form-check-inline">
+              <label class="form-check-label cinza" for="inlineCheckbox1">R$ 200,00</label>
+            </div>
+      </div>
+  </th>
+  <th>
+    <div class="form-group">
+        <div class="form-check form-check-inline">
+            <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023</label>
+          </div>
+    </div>
+</th>
+<th>
+  <div class="form-group">
+      <div class="form-check form-check-inline">
+          <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023 14:30</label>
+        </div>
+  </div>
+</th>
+<th>
+  <div class="form-group">
+      <div class="form-check form-check-inline">
+          <label class="form-check-label cinza" for="inlineCheckbox1">11/04/2023 17:30</label>
+        </div>
+  </div>
+</th>
+<th>
+              <div class="form-group">
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label cinza" for="inlineCheckbox1">Katirlly</label>
+                    </div>
+              </div>
+            </th>
+            <th>
+              <div class="form-group">
+
+                <div class="form-check form-check-inline">
+                  <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+                  </div>
+              </div>
+          </th>
+        </tbody>
+      </table>  
+      
+      <div class="d-flex justify-content-end ms-2">
+        <div class="botoes form-group col-1">
+        </div>
+        <div class="botoes form-group col-1" >
+          <i class="bi bi-chevron-left"></i>
+          <button type="button" class="btn btn-salvar">1</button>
+          <i class="bi bi-chevron-right"></i>
+        </div>
+      </div>
+
+          
+</div>
+</div> 
+  </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
+
+
+

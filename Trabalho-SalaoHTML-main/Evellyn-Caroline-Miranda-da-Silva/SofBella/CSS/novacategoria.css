@@ -1,0 +1,113 @@
+body {
+    background-color: #f8f9fa;
+    padding-left: 500px;
+}
+
+.linha{
+    border-right: 1px solid #e6376b;
+    padding-right: 30px;
+}
+
+.font-pink{
+    color:#FF4081
+}
+
+.card-total{
+    width: 500px;
+
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 500px;
+}
+
+.card-body{
+    width: 500px;
+    height: auto;
+}
+
+.btn-pink {
+    background-color: #FF4081;
+    border-color: #FF4081;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #e6376b;
+    border-color: #e6376b;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.border-pink {
+    border: 1px solid #FF4081; 
+    padding: 8px;           
+    border-radius: 10px;     
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao1{
+    margin-top: 10px;
+    margin-left: 100px;
+    
+    padding-bottom: 40px;
+}
+.botao2{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: auto;
+    width: auto;
+}
+.btn-fechar{
+    border:#FCD8E9 solid 1px
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+}
+.btn-rosa{
+
+    background-color: #FCD8E9;
+    color: #e6376b;
+
+}
+
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao1{
+    margin-top: 10px;
+    margin-left: 100px;
+    
+    padding-bottom: 40px;
+}
+.botao2{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: auto;
+    width: auto;
+}
+.btn-fechar{
+    border:#FCD8E9 solid 1px
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+}
+.btn-rosa{
+
+    background-color: #FCD8E9;
+    color: #e6376b;
+
+}

@@ -1,0 +1,48 @@
+.card-header {
+    background-color: #FF4081 !important;
+    color: #fff;
+    width: 1296px;
+}
+.card-top{
+    background-color: rgb(255, 235, 238);
+}
+body {
+    background-color: #f8f9fa;
+}
+.font-pink{
+    color:#FF4081
+}
+.border-pink {
+    border: 1px solid #FF4081; 
+    padding: 10px;           
+    border-radius: 5px;       
+}
+.form-control{
+    background-color: rgb(243, 219, 223);
+}
+.card-body{
+    background-color: rgb(255, 235, 238);
+}
+button{
+    background-color:#F8367B;
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; 
+    border:none ;
+    border-radius: 5px !important;
+    font-size: 17px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito no texto */
+}
+.btn-pink2{
+    background-color: #FF4081;
+    color: white;
+    height: 40px;
+    width: 100px !important;
+    border-radius: 5px;
+}
+.lb1{
+    margin-left: 150px;
+}
+.corzinha{
+    background-color: #e7acc1;
+}

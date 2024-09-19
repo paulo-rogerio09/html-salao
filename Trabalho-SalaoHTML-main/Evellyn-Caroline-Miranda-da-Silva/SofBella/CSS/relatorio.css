@@ -1,0 +1,172 @@
+body {
+    background-color: #fff5f8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #ff4081;
+    height: 70px;
+    padding-left: 50px;
+    color: white;
+    font-weight: 700;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .form-select {
+    background-color: #FF4081;
+    color: white;
+    border: none;
+}
+
+.navbar .form-select:focus {
+    box-shadow: none;
+}
+
+.icon {
+    margin-left: auto; 
+    margin-right: 20px;
+}
+
+.sidebar {
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    background-color: #ffe2ec;
+    font-size: 20px;
+}
+
+.sidebar .nav-link {
+    color: #FF4081;
+    font-weight: bold;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+.container {
+    margin-left: 270px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.tab-nav {
+    background-color: #ff6fa5;
+    color: white;
+    border-radius: 8px;
+}
+
+.tab-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tab-nav a:hover {
+    background-color: #ff4081;
+    color: white;
+}
+
+.filter-section {
+    background-color: #ffe2ec;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.filter-section label {
+    font-weight: bold;
+}
+
+.filter-section input[type="date"] {
+    margin-right: 10px;
+}
+
+.table-wrapper {
+    background-color: #ffe2ec;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.product-stock {
+    background-color: #ffe2ec;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.no-results {
+    color: #999;
+    text-align: center;
+}
+
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-light {
+    border-radius: 5px;
+    border-color: #FCD8E9;
+}
+
+.btnbuscar {
+    width: 100px;
+}
+
+.btnexibir {
+    width: 110px;
+    margin: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.table {
+    background-color: #fef4f9;
+    border-color: #FCD8E9;
+    margin-top: 50px;
+}
+
+.table th, .table td {
+    border-color: #FCD8E9;
+}
+
+.color {
+    color: #FF4081;
+}
+
+.form-control {
+    border-color: #FCD8E9;
+}
+
+.select {
+    background-color: #FF4081;
+    color: white;
+    border-color: #FF4081;
+}
+
+.select:focus {
+    box-shadow: none;
+}
+
+.usuario {
+    background-color: #FF4081;
+    border: none;
+    color: white;
+}

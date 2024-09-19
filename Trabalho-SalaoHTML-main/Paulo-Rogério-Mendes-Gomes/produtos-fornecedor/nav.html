@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/css.css	" rel = "stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <div class="">
+        <nav class="navbar" style="background-color: #e6376b;">
+            <p class="titulo">Espaço Leide Ellen</p>
+            <p class="perfil"><i class="bi bi-person-circle"></i> Usuario <i class="bi bi-chevron-down"></i></p>
+          </nav>
+    </div>
+   
+   
+    
+</head>
+<body>
+    <div id="todo">
+        <div class="nav teste">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link cor" aria-current="page" href=""><i class="bi bi-calendar2-check"></i> Agenda <i class="bi bi-chevron-right margem1"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cor" href=""><i class="bi bi-currency-dollar"></i> Financeiro <i class="bi bi-chevron-right margem2"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cor" href=""><i class="bi bi-people-fill"></i> Clientes <i class="bi bi-chevron-right margem3"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cor" href=""><i class="bi bi-graph-up-arrow"></i> Relatórios <i class="bi bi-chevron-right margem4"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cor" href=""><i class="bi bi-scissors"></i> Serviços <i class="bi bi-chevron-right margem5"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu-selecionado" href=""><i class="bi bi-bag"></i> Produtos <i class="bi bi-chevron-down margem6"></i></a>
+                  <li class="nav-item">
+                    <a class="nav-link menu-selecionado" href=""><i class="bi bi-list-ul"></i> Listagem </i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link menu-selecionado" href=""><i class="bi bi-stack"></i> Categorias </i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link menu-selecionado" href=""><i class="bi bi-box-seam-fill"></i> Estoque </i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link menu-selecionado opcao-selecionado" href=""><i class="bi bi-cart-plus-fill"></i> Fornecedores </i></a>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cor" href=""><i class="bi bi-person-badge-fill"></i> Profissionnais <i class="bi bi-chevron-right margem7"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cor" href=""><i class="bi bi-gear-fill"></i> Configurar <i class="bi bi-chevron-right margem8"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="direito opcao-selecionado">
+          <form>
+            <div class="row">
+                <div class="col-12 ">
+                    <h5>Produtos / Fornecedores</h5>            
+                    <div class="row">
+                        
+                        <div class="form-group col-4">
+                          <label><i class="bi bi-search"></i>Procurar por:</label>
+                          <input type="text" name="" class="form-control">
+                            
+                        </div>
+                        <div class=" form-group col-2 botao_bloqueio_2">
+                          <br>
+                          <button type="button" class=" btn btn-salvar "> Filtrar por Nome <i class="bi bi-chevron-down margem1"></i></button>
+                      </div>
+                      
+                    <div class="form-group col-1 margem0">
+                      <br>
+                        <select  class="form-select" aria-label="Default select example">
+                            <option selected value="">Ativos</option>
+                            <option value="1">Todos</option>
+                            <option value="2">vanessa</option>
+                        </select>
+                        
+                    </div>
+                    <div class="form-group col-2 botoes">
+                      
+                      <div class=" ">
+                        <br>
+                        <button type="button" class=" btn btn-salvar"> Buscar</button>
+                    </div>
+                      <div class="  margem0	">
+                        <br>
+
+                          <button type="button" class=" btn btn-fechar ">Exibir Todos</button> 
+                      </div>
+                  </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <div class="form-group col-1">
+                        <br>
+                        <button type="button" class=" btn btn-salvar btn-agendamento"><i class="bi bi-plus-lg"></i> Novo Fornecedor</button>
+                    
+                      </div>
+                    </div>
+                        <br>
+                    <div class="row">
+                      <div class="form-group col-12">
+                        <table class="table margem-table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Codigo <i class="bi bi-chevron-expand"></i></th>
+                              <th scope="col">Nome <i class="bi bi-chevron-expand"></i></th>
+                              <th scope="col">Empresa <i class="bi bi-chevron-expand"></i></th>
+                              <th scope="col">Ações <i class="bi bi-chevron-expand"></i></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th >1</th>
+                              <td>DVIEN</td>
+                              <td>DVIEN</td>
+                              <td><i class="bi bi-pencil-square menu-selecionado"></i> <i class="bi bi-trash menu-selecionado"></i></td>
+                              
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="botoes  ">
+                      <div>
+                        <div class="botoes col- margem-top-esquerda">
+                          <label for="">Mostrar</label> 
+                          <select class="form-select margem0" aria-label="Default select example">
+                            <option selected value=""></option>
+                            <option value="1">Todos</option>
+                            <option value="2">1</option>
+                        </select>
+                        <label class="margem0">Agendamentos</label>
+                      </div>
+                      </div>
+                      <div>
+                        <div class="botoes col- margem-top-direita">
+                          <label for="">Primeira</i></label> 
+                          <i class="bi bi-chevron-left"></i>
+                          <button type="button" class=" btn btn-salvar ">1</button>
+                        <i class="bi bi-chevron-right"></i>
+                        <label class="">Ultima</label>
+                        </div>
+                      </div>
+
+                      
+                      
+                     
+                    </div>
+
+                    </div>
+                   
+                </div>
+               
+           
+            
+           
+           
+        </form>
+        </div>
+        
+    </div>
+   
+    
+</body>
+</html>

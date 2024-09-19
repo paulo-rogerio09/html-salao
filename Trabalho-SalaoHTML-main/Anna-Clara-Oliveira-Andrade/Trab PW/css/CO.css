@@ -1,0 +1,103 @@
+.linha{
+    border-right: 1px solid #FCD8E9;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.link{
+    text-decoration: none;
+    color:#FF4081;
+}
+.direito{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.font-pink{
+    color:#FF4081
+}
+.card-total{
+    width: 1298px;
+    border-color: #FCD8E9;
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 700px;
+}
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.btn-pink2{
+    background-color: #FF4081;
+    color: white;
+    height: 40px;
+    width: 150px !important;
+    border-radius: 5px;
+}
+.bnt-claro{
+    color:#FF4081;
+    background-color:#FCD8E9;
+    height: 40px !important;
+    width: 150px !important;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+option{
+    color: white;
+    background-color:#FF4081;
+    font-weight: 600;
+    width: 150px !important;
+    text-decoration: none;
+}
+.buttons{
+    margin-left: 199px;
+    margin-top: 250px;
+}
+.border-pink {
+    border: 1px solid #FCD8E9; 
+    padding:10px;          
+    border-radius: 5px; 
+}
+
+.card-header {
+    background-color: #FF4081 !important;
+    color: #fff;
+    width: 1296px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.font-pink{
+    color:#FF4081
+}
+.border-pink {
+    border: 1px solid #FF4081; 
+    padding: 10px;           
+    border-radius: 5px;       
+}
+.form-control{
+    background-color: rgb(243, 219, 223);
+}
+.card-body{
+    background-color: rgb(255, 235, 238);
+}
+button{
+    background-color:#F8367B;
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; 
+    border:none ;
+    border-radius: 5px !important;
+    font-size: 17px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito no texto */
+}

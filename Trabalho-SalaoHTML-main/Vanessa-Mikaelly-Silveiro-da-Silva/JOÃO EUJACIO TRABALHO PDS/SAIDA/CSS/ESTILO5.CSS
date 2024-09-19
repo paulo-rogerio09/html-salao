@@ -1,0 +1,111 @@
+.font-pink{
+    color:#FF4081
+    
+}
+
+.card-total{
+    width: 1200px;
+    border-color: #FCD8E9;
+   
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 1200px;
+    padding-left: 60px; /*AQUI EU MECHO NO TOPO DA HEADER DO CAIXA*/
+    padding-top: 15px; /*AQUI EU MECHO NO TOPO DA HEADER DO CAIXA*/
+  
+}
+.card-body{
+    width: 1200px;
+    height: auto;
+    margin-left: 5px; 
+    padding: 50px;
+}
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+}
+  
+.btn-pink:hover {
+    background-color: #FF4081;
+}
+.borda {
+    border-color: #FCD8E9;
+}
+
+.btn-rosa {
+    background-color: #FCD8E9;
+    color: #e6376b;
+}
+
+.btn-rosa:hover {
+    background-color: #FF4081;
+    color: #fff;
+}
+
+.btn-fechar {
+    border: #FCD8E9 solid 1px;
+}
+
+.btn-salvar {
+    background-color: #e6376b;
+    color: #fff;
+}
+.btn-encerrar{
+
+    background-color: #e6376b;
+    color: #fff;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.col-md-5 {
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao1{
+    margin-top: 10px;
+    margin-left: 450px;
+    
+    padding-bottom: 10px;
+    padding-top: 150px;
+}
+.botao2{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 150px;
+}
+.aumentar{
+    padding: 30px;
+}
+
+.boot{
+
+    padding: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    padding: 20px;
+
+
+}
+.row {
+    display: flex; 
+    align-items: stretch; 
+    width: 100%; 
+}

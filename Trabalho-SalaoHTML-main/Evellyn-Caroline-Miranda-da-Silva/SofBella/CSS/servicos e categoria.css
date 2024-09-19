@@ -1,0 +1,93 @@
+body {
+    background-color: #fef4f9; 
+}
+
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+    border-radius: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+.btnbuscar {
+    width: 100px;
+}
+.btnexibir{
+    width: 110px;
+    margin:0px;
+}
+
+.btn-light{
+    border-radius: 5px;
+    border-color: #FCD8E9;
+}
+
+.table{
+    background-color: #fef4f9;
+    border-color: #FCD8E9;
+    margin-top: 50px;
+}
+
+.color{
+    color:#FF4081;
+}
+
+.select {
+    background-color: #FF4081;
+    color: white; 
+    border-color: #FF4081;
+}
+
+.select:focus {
+    box-shadow: none; 
+}
+
+.form-control {
+    border-color:#FCD8E9; 
+
+}
+
+.usuario{
+    background-color:#FF4081;
+    border: none;
+    color:white;
+    
+}
+.sidebar {
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    top: 56px;
+    margin-left: 20px;
+    width: auto;
+    font-size: 20px;
+}
+
+.sidebar .nav-link {
+    color:#FF4081;
+}
+
+.content {
+    margin-left: 200px; 
+    padding: 20px;
+    padding-right: 70px;
+}
+
+.icon{
+    margin-left: 1100px;
+}
+
+.navbar {
+    background-color: #ff4081;
+    height: 70px;
+    padding-left: 50px;
+    color:white;
+    font-weight: 700;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    padding: 20px;
+}
+.row {
+    display: flex; 
+    align-items: stretch; /* Faz com que as colunas tenham a mesma altura */
+    width: 100%; 
+}
+.col-md-5 {
+
+    border-right: 0.5px solid #e6376b;
+    margin-left: 40px;
+    height: auto;
+    padding-top: 10px; 
+    margin-bottom: 20px;
+  
+}
+.col-md-6{
+
+    padding: 10px; 
+    padding-left: 50px;
+
+}
+form {
+    width: 105%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.font-pink{
+    color:#FF4081
+}
+
+.card-total{
+    width: 1200px;
+    border-color: #FCD8E9;
+   
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 1200px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.card-body{
+    width: 1200px;
+    height: auto;
+}
+
+
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+  }
+  
+  .btn-pink:hover {
+    background-color: #FF4081;
+  }
+  
+  .m-2 {
+    margin: 0.5rem;
+}
+.borda{
+
+    border-color: #FCD8E9;
+}
+
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao1{
+    margin-top: 10px;
+    margin-left: 450px;
+    
+    padding-bottom: 40px;
+}
+.botao2{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: auto;
+    width: auto;
+}
+.btn-fechar{
+    border:#FCD8E9 solid 1px
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+}
+.btn-rosa{
+
+    background-color: #FCD8E9;
+    color: #e6376b;
+
+}
+.boot{
+
+    padding: 10px;
+}
+  
+

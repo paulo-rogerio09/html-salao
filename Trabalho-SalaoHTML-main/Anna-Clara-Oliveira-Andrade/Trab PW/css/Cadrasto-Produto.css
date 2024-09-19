@@ -1,0 +1,82 @@
+.linha{
+    height: 500px;
+    border-left: 2px solid;
+    border-top: none;
+    border-color: #F8367B;
+}
+.adrosa{
+    background-color: rgb(236, 180, 189);
+}
+.card-header {
+    background-color: #FF4081 !important;
+    color: #fff;
+    width: 1270px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.texto{
+    height: 250%;
+    width: 100%;
+    color: #FF4081;
+}
+.cinz{
+    color:gray; 
+}
+.border-pink {
+    border: 1px solid #FF4081  !important; 
+    padding: 10px;           
+    border-radius: 5px;       
+}
+.font-pink{
+    color:#FF4081
+}
+.btn-custom {
+    background-color: rgb(247, 181, 192); /* Cor de fundo */
+    color: #F8367B; /* Cor do texto */
+    border: none; /* Remove bordas padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor para uma mãozinha */
+    border-radius: 3px; /* Bordas arredondadas (opcional) */
+    font-size: 17px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito no texto */
+}
+
+.btn-custom:hover {
+    background-color: rgb(238, 190, 196); /* Cor de fundo ao passar o mouse (opcional) */
+}
+
+.card-total {
+    border: 2px solid  #FF4081 ; /* Cor da borda azul */
+}
+.buttons{
+    display: flex !important;
+    height: auto !important;
+    width: auto !important;
+}
+.botao1{
+    margin-top: 10px !important;
+    margin-left: 100px !important;
+    padding-bottom: 40px !important;
+}
+.botao2{
+    margin-top: 10px !important;
+    margin-left: 40px !important;
+    height: auto !important;
+    width: auto !important;
+}
+.btn-fechar{
+    border:#FCD8E9 solid 1px !important
+}
+.btn-salvar{
+    background-color: #e6376b !important; 
+    color: #fff !important ;
+}
+.btn-rosa{
+
+    background-color: #FCD8E9 !important;
+    color: #e6376b !important;
+
+}

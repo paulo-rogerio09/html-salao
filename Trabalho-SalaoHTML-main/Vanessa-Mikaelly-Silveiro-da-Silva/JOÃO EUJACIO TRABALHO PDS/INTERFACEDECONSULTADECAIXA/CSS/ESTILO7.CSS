@@ -1,0 +1,139 @@
+.margem1{
+    margin-left: 60px;
+}
+.margem2{
+    margin-left: 42px;
+}
+.margem3{
+    margin-left: 60px;
+}
+.margem4{
+    margin-left: 45px;
+}
+.margem5{
+    margin-left: 57px;
+}
+.margem6{
+    margin-left: 52px;
+}
+.margem7{
+    margin-left: 20px;
+}
+.margem8{
+    margin-left: 42px;
+}
+.margem9{
+ 
+    margin-bottom: 10px;
+    
+}
+.cor{
+   
+    color: black;
+}
+.titulo{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.perfil{
+    color: #fff;
+    float: right;
+    padding: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+
+}
+.mensagem{
+    width: 550px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 400px;
+    border-radius: 9px;
+    background-color: rgb(253, 216, 233);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.teste{
+    height: auto;
+    width: 15%;
+    
+}
+#todo{
+    display: flex;
+}
+.titulo-mensagem{
+    color: #e6376b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-mensagem{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.menu-selecionado{
+    color: #e6376b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.direito{
+  width: 84%;
+}
+.margem0{
+    margin-left: 20px;
+}
+.data{
+    border: solid 1px rgb(222,226,230);
+    border-radius: 5px ;
+    padding: 5px;
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+ 
+}
+.botoes{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.btn-fechar{
+    border:rgb(222,226,230) solid 1px
+}
+.btn-agendamento{
+    width: 250px;
+}
+.margem-table{
+    margin-top: 50px;
+}
+.margem-top-esquerda{
+    float: left;
+    margin-top: 400px;
+}
+.margem-top-direita{
+    float: right;
+    margin-top: 400px;
+    margin-left: 1000px;
+}
+.borda {
+    border-color: #FCD8E9;
+}
+
+.btn-rosa {
+    background-color: #FF4081;
+    color: #fff;
+}
+   
+
+.btn-rosa:hover {
+
+
+    background-color: #FCD8E9;
+    color: #e6376b;
+}
+

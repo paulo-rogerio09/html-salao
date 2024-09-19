@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff; 
+}
+.caixas{
+    border-color: #fed2e7;
+}
+.color{
+    color:#FF4081;
+}
+
+table td{
+    border: 2px solid #fed2e7;
+}
+
+hr{
+    color: #ffa8d2;
+   
+}
+th{
+    font-weight: 500;
+    border:none;
+}
+td{
+    border:none;
+}
+
+.usuario{
+    background-color:#FF4081;
+    border: none;
+    color:white;
+    
+}
+.sidebar {
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    top: 56px;
+    margin-left: 20px;
+    width: auto;
+    font-size: 20px;
+}
+
+.sidebar .nav-link {
+    color:#FF4081;
+}
+
+.content {
+    margin-left: 250px; 
+    padding: 20px;
+}
+
+.icon{
+    margin-left: 1100px;
+}
+
+.navbar {
+    background-color: #ff4081;
+    height: 70px;
+    padding-left: 50px;
+    color:white;
+    font-weight: 700;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+
+
+

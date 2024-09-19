@@ -1,0 +1,145 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.linha{
+    border-right: 1px solid #e6376b;
+    padding-right: 30px;
+    
+}
+
+
+.direito{
+    padding-left: 40px;
+    padding-right: 100px;
+    margin-top: 9px;
+}
+
+.font-pink{
+    color:#FF4081
+}
+
+.card-total{
+    width: 1200px;
+    
+}
+.card-header{
+    background-color: #FF4081;
+    color: #fff;
+    width: 1200px;
+    
+}
+
+.card-body{
+    width: 1200px;
+    height: auto;
+    
+}
+
+.btn-pink {
+    background-color: #FF4081;
+    border-color: #FF4081;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #e6376b;
+    border-color: #e6376b;
+}
+
+
+.form-label {
+    font-weight: bold;
+}
+
+.border-pink {
+    border: 1px solid #FF4081; 
+    padding: 10px;           
+    border-radius: 5px;       
+}
+.botoes{
+    display: flex;
+   
+}
+.botao_facial_1{
+    margin-top: 10px;
+    margin-left: 490px;
+}
+.botao_facial_2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+}
+.btn-fechar{
+    border:#e6376b solid 1px
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+}
+.data{
+    border: solid 1px rgb(222,226,230);
+    border-radius: 5px ;
+    padding: 5px;
+}
+.invisivel{
+    color: #fff;
+    background-color: #fff;
+    border: none;
+}
+.botao_bloqueio_1{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.botao_bloqueio_2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+}
+.margem0{
+    margin-left: 10px;
+}
+.margem-top{
+    margin-top: 23px;
+}
+.margem-top-botao{
+    margin-top: 30px;
+}
+.margem-telefone{
+    margin-left: 200px;
+    
+}
+.expediente{
+    background-color: rgb(255, 180, 215);
+    color: #ff3d77
+}
+.borda{
+    border: rgb(253, 216, 233) 1px solid;
+    margin-left: 12px;
+    padding: 7px;
+    border-radius: 6px;
+}
+.mini-texto{
+    font-size: small;
+    color: rgb(154, 157, 160)
+}
+/*
+.card-total{
+    width: 650px;
+    padding-bottom: 0px;
+    margin: auto;
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 649px;
+    padding-left: 20px;
+   
+}
+
+.card-body{
+    width: 650px;
+    height: auto;
+}

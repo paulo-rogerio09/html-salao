@@ -1,0 +1,112 @@
+.bg-rosa {
+    background-color: #ff66b3;
+}
+.tabela{
+
+    margin-left: 40px;
+}
+
+.saldo-container {
+    background-color: #ff66b3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+.saldo-label {
+    font-weight: bold;
+    color: white;
+}
+
+.saldo-value {
+    color: white;
+    font-weight: bold;
+}
+
+table th, table td {
+    text-align: left;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    padding: 20px;
+}
+
+.font-pink{
+    color:#FF4081
+    
+}
+
+.card-total{
+    width: 1200px;
+    border-color: #FCD8E9;
+   
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 1200px;
+    padding-left: 60px; /*AQUI EU MECHO NO TOPO DA HEADER DO CAIXA*/
+    padding-top: 15px; /*AQUI EU MECHO NO TOPO DA HEADER DO CAIXA*/
+  
+}
+.card-body{
+    width: 1200px;
+    height: auto;
+    margin-left: 5px; 
+    padding: 50px;
+}
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+}
+  
+.btn-pink:hover {
+    background-color: #FF4081;
+}
+  
+.m-2 {
+margin: 0.5rem;
+}
+.borda{
+
+border-color: #FCD8E9;
+}
+
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao1{
+    margin-top: 10px;
+    margin-left: 450px;
+    
+    padding-bottom: 40px;
+}
+.botao2{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: auto;
+    width: auto;
+}
+.btn-fechar{
+    border:#FCD8E9 solid 1px
+}
+.btn-rosa{
+
+    background-color: #FCD8E9;
+    color: #e6376b;
+
+}
+.boot{
+
+    padding: 10px;
+}
+  
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="CSS/anamnesecapilar.css" rel = "stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Anamnese Capilar</title>
+</head>
+<body>
+    <div class="container mt-5 ">
+        <div class="card card-total">
+            <div class="card-header ">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active " aria-current="true" href="#"><h6 class="font-pink"><i class="bi bi-file-earmark-text-fill"></i> Anamnese Capilar</h6></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="row">
+                        <div class="col-6 linha"> 
+
+                            <h5>Anamnese Capilar</h5>
+                          
+                            <div class="row">
+                                <div class="form-group col-5">
+                                    <label>Tipo de Cabelo: </label>
+                                    <select class="form-select caixas">
+                                        <option selected value=""></option>
+                                        <option value="Liso">Liso</option>
+                                        <option value="Ondulado">Ondulado</option>
+                                        <option value="Cacheado">Cacheado</option>
+                                        <option value="Crespo">Crespo</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-7">
+                                    <label>Comprimento: </label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="form-group col-5">
+                                    <label>Característica: </label>
+                                    <select class="form-select caixas">
+                                        <option selected value=""></option>
+                                        <option value="Liso">Normal</option>
+                                        <option value="Ondulado">Oleoso</option>
+                                        <option value="Cacheado">Seco</option>
+                                        <option value="Crespo">Seborreico</option>
+                                        <option value="Crespo">Misto</option>
+                                        </select>
+                                </div>
+                                <div class="form-group col-7">
+                                    <label>Elasticidade: </label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label>Pigmentação Predominante:</label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                                <div class="form-group col-6">
+                                    <label>Porosidade: </label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label>Espessura do Fio: </label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                                <div class="form-group col-6">
+                                    <label>Volume: </label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label>Resistência: </label>
+                                    <input type="text" class="form-control caixas">
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="col-6 direito">
+                            <label>Condição: </label>
+                            <div class="row border-pink">
+                                
+                                <div class="col-3">   
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="tingimento">
+                                        <label class="form-check-label" for="tingimento">Tingimento</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="alisamento">
+                                        <label class="form-check-label" for="alisamento">Alisamento</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="permanente">
+                                        <label class="form-check-label" for="permanente">Permanente</label>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="relaxamento">
+                                        <label class="form-check-label" for="relaxamento">Relaxamento</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="amaciamento">
+                                        <label class="form-check-label" for="amaciamento">Amaciamento</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="reflexos">
+                                        <label class="form-check-label" for="reflexos">Reflexos</label>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="luzes">
+                                        <label class="form-check-label" for="luzes">Luzes</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="escovaprogressiva">
+                                        <label class="form-check-label" for="escovaprogressiva">Escova Progressiva</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="permanenteafro">
+                                        <label class="form-check-label" for="permanenteafro">Permanente Afro</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="escova">
+                                        <label class="form-check-label" for="escova">Escova</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <label>Observações:</label>
+                            <div class="row">
+                                <textarea rows="4" cols="300" class="textarea" ></textarea>
+                            </div>
+                            <br>
+                            <label>Antecedentes alérgicos:</label>
+                            <div class="row border-pink">
+                                <div class="col-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="tinturas">
+                                        <label class="form-check-label" for="tinturas">Tinturas</label>
+                                    </div>
+                                   
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="alisantes">
+                                        <label class="form-check-label" for="alisantes">Alisantes</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-5">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="liquido">
+                                        <label class="form-check-label" for="liquido">Liquido Permanentes</label>
+                                    </div>
+                                   
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="tratamento">
+                                        <label class="form-check-label" for="tratamento">Tratamento Capilares</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="medicamentos">
+                                        <label class="form-check-label" for="medicamentos">Medicamentos</label>
+                                    </div>
+                                   
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="outro">
+                                        <label class="form-check-label" for="outro">Outro</label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-light"><i class="bi bi-x-lg"></i> Fechar</button>
+                        <button type="submit" class="btn btn-pink"><i class="bi bi-check-lg"></i> Salvar</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+    margin-left: 450px;
+}
+
+.font-pink{
+    color:#FF4081
+}
+
+.card-total{
+    width: 600px;
+    border-color: #FCD8E9;
+}
+.card-header {
+    background-color: #FF4081;
+    color: #fff;
+    width: 600PX;
+}
+
+.card-body{
+    width: 600px;
+    height: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+h6{
+    font-size: 18px;
+}
+
+tr{
+    border-color: #FCD8E9;
+}
+
+.btn-pink {
+    background-color: #FF4081;
+    color: white;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.btn-light{
+    width: 100px;
+    border-radius: 5px;
+    border-color: #FCD8E9;
+}
+
+.border-pink {
+    border: 1px solid #FCD8E9; 
+    padding:10px;          
+    border-radius: 5px;       
+}
+.buttons{
+    margin-top: 30px;
+    margin-left: 125px;
+}
+.caixas{
+    border-color: #FCD8E9;
+}
