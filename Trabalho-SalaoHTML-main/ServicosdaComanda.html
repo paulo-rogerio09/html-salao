@@ -72,9 +72,20 @@
                             <button id="valo" class="btn btn-apagar"><i class="bi bi-trash"></i></button>
                         </div>
                     </div>
-                    <div class="row buttons">
-                        <button type="button" class="btn btn-light"><a href="Cadastro de Comanda.html" class="link"><i class="bi bi-x-lg"></i> Fechar</a></button>
-                        <button type="submit" class="btn btn-pink"><i class="bi bi-check-lg"></i> Salvar</button>
+                    <div class="buttons">  
+                        <button type="button" class="bi bi-x-lg btn btn-fechar"><a href="CadastrodeComanda.html" class="text-decoration-none text-black">Fechar</a></button>
+                        <button type="button" class="bi bi-check-lg btn btn-salvar" data-bs-toggle="modal" data-bs-target="#salvarmodal"> Salvar</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="salvarmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                             <div class="modal-content">
+                                
+                                <button type="button" class="bi bi-check-lg btn btn-salvar"> Salvo com sucesso!</button>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 </form>
             </div>
