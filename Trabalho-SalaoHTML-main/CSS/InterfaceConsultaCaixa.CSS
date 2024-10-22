@@ -136,4 +136,15 @@
     background-color: #FCD8E9;
     color: #e6376b;
 }
+.espaco{
+    margin-left:    30px;
+}
+.espaco2{
+    margin-left: 140px;
+}
+.botoes1{
+    display: flex;
+   
+    
+}
 

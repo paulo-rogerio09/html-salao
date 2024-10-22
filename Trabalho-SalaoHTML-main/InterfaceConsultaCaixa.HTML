@@ -25,7 +25,7 @@
                 <a class="nav-link cor" href="Consultadecomanda.html"><i class="bi bi-currency-dollar"></i> Financeiro <i class="bi bi-chevron-right margem2"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor" href=""><i class="bi bi-people-fill"></i> Clientes <i class="bi bi-chevron-right margem3"></i></a>
+                <a class="nav-link cor" href="ConsultaCliente"><i class="bi bi-people-fill"></i> Clientes <i class="bi bi-chevron-right margem3"></i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link cor" href="Consulta-Relatorio-Principal.html"><i class="bi bi-graph-up-arrow"></i> Relatórios <i class="bi bi-chevron-right margem4"></i></a>
@@ -91,10 +91,11 @@
             <br>
             <div class="row">
               <div class="d-grid gap-1 mb-0 col-2">
-                <button type="button" class="btn btn-rosa btn-md boot btn-encerrar">
-                    <i class="bi bi-plus"></i> Novo Expediente
-                </button>
+                <button type="button" class="btn btn-rosa btn-md boot btn-encerrar"><a href="InformacaoDoExpediente.HTML"></a> Novo Expediente </button>
                </div>
+
+
+               
             </div>
             <br>
 
@@ -238,9 +239,44 @@
       <th>
         <div class="form-group">
           
+          <div class="form-group">
             <div class="form-check form-check-inline">
-              <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+              <div class="form-check form-check-inline">
+
+                <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+                <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal"><i class="bi bi-trash menu-selecionado" ></i></a></td>
+              
+                <div class="modal fade" id="meumodal"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header" style="background-color: #e6376b;">
+                        <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                        <button type="button" class="btn-fechar" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+              
+                      <div class="modal-body">
+                        <div class="botoes1 ">
+                          <div class="botao_facial_1 ">
+                              <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+                          </div>
+              
+                          <div class="botao_facial_2 ">
+                              <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                               
+                          </div>
+                         
+                      </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
               </div>
+          </div>
+        </div>
+
+              
+        
         </div>
     </th>
     </tbody>
@@ -306,7 +342,42 @@
 <th>
 <div class="form-group">
 <div class="form-check form-check-inline">
-  <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+
+  <div class="form-group">
+    <div class="form-check form-check-inline">
+      <div class="form-check form-check-inline">
+
+        <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+        <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal"><i class="bi bi-trash menu-selecionado" ></i></a></td>
+      
+        <div class="modal fade" id="meumodal"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color: #e6376b;">
+                <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                <button type="button" class="btn-fechar" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+      
+              <div class="modal-body">
+                <div class="botoes1 ">
+                  <div class="botao_facial_1 ">
+                      <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+                  </div>
+      
+                  <div class="botao_facial_2 ">
+                      <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                       
+                  </div>
+                 
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
   </div>
 </div>
 </th>
@@ -374,10 +445,41 @@
           <th>
             <div class="form-group">
               <div class="form-check form-check-inline">
-               <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
-          </div>
+                <div class="form-check form-check-inline">
+
+                  <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal"><i class="bi bi-trash menu-selecionado" ></i></a></td>
+                
+                  <div class="modal fade" id="meumodal"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header" style="background-color: #e6376b;">
+                          <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                          <button type="button" class="btn-fechar" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                
+                        <div class="modal-body">
+                          <div class="botoes1 ">
+                            <div class="botao_facial_1 ">
+                                <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+                            </div>
+                
+                            <div class="botao_facial_2 ">
+                                <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                                 
+                            </div>
+                           
+                        </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-          </th>
+          </div>
+       </th>
+ 
           </tbody>
 
           <tbody>
@@ -443,7 +545,35 @@
   <div class="form-group">
     
       <div class="form-check form-check-inline">
-        <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+        <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+        <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal"><i class="bi bi-trash menu-selecionado" ></i></a></td>
+      
+        <div class="modal fade" id="meumodal"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color: #e6376b;">
+                <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                <button type="button" class="btn-fechar" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+      
+              <div class="modal-body">
+                <div class="botoes1 ">
+                  <div class="botao_facial_1 ">
+                      <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+                  </div>
+      
+                  <div class="botao_facial_2 ">
+                      <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                       
+                  </div>
+                 
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      
         </div>
   </div>
 </th>
@@ -461,6 +591,47 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
+
+
+<!-- <td> <a href="Agendamento.html" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+  <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal"><i class="bi bi-trash menu-selecionado" ></i></a></td>
+
+  <div class="modal fade" id="meumodal"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #e6376b;">
+          <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="botoes ">
+            <div class="botao_facial_1 ">
+                <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+            </div>
+
+            <div class="botao_facial_2 ">
+                <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                 
+            </div>
+           
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</tr>
+
+<div class="modal fade" id="excluir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<button type="button" class="bi bi-check-lg btn btn-salvar"> Salvo com sucesso!</button>
+
+</div>
+</div>
+</div>-->
 
 
 
