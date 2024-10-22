@@ -67,3 +67,27 @@ textarea {
 .caixas{
     border-color: #FCD8E9;
 }
+
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao_1{
+    margin-top: 10px;
+    margin-left: 490px;
+}
+.botao_2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+}
+
+.btn-fechar{
+    border:#e6376b solid 1px
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+}

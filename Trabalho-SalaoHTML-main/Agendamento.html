@@ -58,13 +58,40 @@
                           
                         </select>
                     </div>
-                    <div class="row">
-                        <button type="submit" class="btn btn-claro"><i class="bi bi-calendar-x"></i> Agendamento Cancelado</button>
+                   
+
+                    <div class="botoes"></div>
+                        <div class="botao_2">
+                            <button type="button" class=" btn btn-claro" data-bs-toggle="modal" data-bs-target="#cancelarmodal"><i class="bi bi-calendar-x "></i> Agendamento Cancelado</button>
+                        </div>
                     </div>
                    
-                    <div class="row">
-                        <button type="button" class="btn btn-light"><i class="bi bi-x-lg"></i> Fechar</button>
-                        <button type="submit" class="btn btn-pink"><i class="bi bi-check-lg"></i> Salvar</button>
+                    <div class="modal fade" id="cancelarmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                             <div class="modal-content">
+                                
+                                <button type="button" class="bi bi-check-lg btn btn-salvar"> Cancelado com sucesso!</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <div class="botao_1">
+                            <button type="button" class="bi bi-x-lg btn btn-fechar"><a href="ConsultadeCalendário.html" class="text-decoration-none text-black">Fechar</a></button>
+                        </div>
+                        <div class="botao_2">
+                            <button type="button" class="bi bi-check-lg btn btn-salvar" data-bs-toggle="modal" data-bs-target="#salvarmodal"> Salvar</button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="salvarmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                             <div class="modal-content">
+                                
+                                <button type="button" class="bi bi-check-lg btn btn-salvar"> Salvo com sucesso!</button>
+                                
+                            </div>
+                        </div>
                     </div>
                    
                 </form>

@@ -22,7 +22,7 @@ body {
     color:#FF4081;
     background-color:#FCD8E9;
     width: 250px;
-    margin-left: 24px;
+    margin-left: 10px;
     margin-top: 30px;
 }
 .card-body{
@@ -70,3 +70,29 @@ label{
 .caixas{
     border-color: #FCD8E9;
 }
+.botoes{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.botao_1{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.botao_2{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+}
+
+.btn-fechar{
+    border:#e6376b solid 1px
+}
+.btn-salvar{
+    background-color: #e6376b;
+    color: #fff;
+}
+
+
