@@ -68,25 +68,25 @@
                     <div class="row">
                         <div class="form-group col-6 d-grid mt-4">
                             <button type="button" class="btn btn-rosa btn-md boot"> 
-                                <i class="bi bi-file-earmark-text "></i>  Anamnese Capilar
+                                <i class="bi bi-file-earmark-text "></i> <a href="AnamneseCapilar.html" class="text-reset text-decoration-none">Anamnese Capilar </a> 
                             </button>
                             <br>
                         </div>
                         <div class="form-group col-6 d-grid mt-4">
                             <button type="button" class="btn btn-rosa btn-md boot">
-                                <i class="bi bi-file-earmark-text"></i>  Anamnese Corporal 
+                                <i class="bi bi-file-earmark-text"></i><a href="AnamneseCorporal.html" class="text-reset text-decoration-none">Anamnese Corporal </a>
                             </button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-6 d-grid mt-4">
                             <button type="button" class="btn btn-rosa"> 
-                                <i class="bi bi-file-earmark-text"></i>  Anamnese Facial
+                                <i class="bi bi-file-earmark-text"></i><a href="AnamneseFacial.html" class="text-reset text-decoration-none">  Anamnese Facial</a>
                             </button>
                         </div>
                         <div class="form-group col-6 d-grid mt-4">
                             <button type="button" class="btn btn-rosa">
-                                <i class="bi bi-file-earmark-text"></i> Anamnese Manicure e Pedicure
+                                <i class="bi bi-file-earmark-text"></i><a href="Anamnese_ManicurePedicure.html" class="text-reset text-decoration-none">Anamnese Manicure e Pedicure</a> 
                             </button>
                         </div>
                     </div>
@@ -156,13 +156,21 @@
 
         <div class="botoes">
             <div class="botao1">
-                <button type="button" class="bi bi-x-lg btn btn-fechar">Fechar</button> 
+                <button type="button" class="bi bi-x-lg btn btn-fechar"> <a href="InterfaceConsultaCaixa.HTML" class="text-reset text-decoration-none">Fechar</a> </button> 
             </div>
             <div class="botao2">
-                <button type="button" class="bi bi-check-lg btn btn-salvar"> Salvar</button>
+                <button type="button" class="bi bi-check-lg btn btn-salvar" data-bs-toggle="modal" data-bs-target="#salvarmodal"> Salvar</button>
             </div>
         </div>
-
+            <div class="modal fade" id="salvarmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                     <div class="modal-content">
+                        
+                        <button type="button" class="bi bi-check-lg btn btn-salvar"> Salvo com sucesso!</button>
+                        
+                    </div>
+                </div>
+            </div>
     </div>
     
 </div>

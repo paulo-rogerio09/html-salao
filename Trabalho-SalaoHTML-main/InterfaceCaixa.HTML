@@ -23,12 +23,15 @@
           <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link cor" href=""><i class="bi bi-calendar2-check"></i> Agenda <i class="bi bi-chevron-right margem1"></i></a>
-                <ul class="nav flex-column ml-3">
-                  <li class="nav-item titulo-mensagem"><a href="INDEX8.HTML" class="nav-link"><i class="bi bi-inbox-fill titulo-mensagem"></i> <label class="titulo-mensagem">Caixa</label></i></a></li>
-              </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor" href="ConsultadeCalendário.html"><i class="bi bi-currency-dollar"></i> Financeiro <i class="bi bi-chevron-right margem2"></i></a>
+                <a class="nav-link cor text-decoration-none text-reset" href="Consultadecomanda.html"><i class="bi bi-currency-dollar"></i> Financeiro <i class="bi bi-chevron-down mama"></i></a>
+                <ul class="nav flex-column ml-3">
+                  <a class="nav-link cor text-decoration-none text-reset" aria-current="page" href="Consultadecomanda.html"><i class="bi bi-file-text titulo-mensagem"></i><label class="titulo-mensagem"> Comanda</label> </i></a>
+                </ul>
+                <ul class="nav flex-column ml-3">
+                  <li class="nav-item titulo-mensagem text-decoration-none text-reset"><a href="InterfaceCaixa.HTML" class="nav-link opcao-selecionado"><i class="bi bi-inbox-fill titulo-mensagem"></i> <label class="titulo-mensagem">Caixa</label></i></a></li>
+              </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link cor" href="Consulta_Clientes.html"><i class="bi bi-people-fill"></i> Clientes <i class="bi bi-chevron-right margem3"></i></a>
@@ -73,10 +76,14 @@
                 <div class="form-group col-md-2">
                     <button type="button" class="btn btn-rosa btn-salvar mt-4">Buscar</button>
                 </div>
-            
-                <div class="form-group col-md-2">
-                    <button type="button" class="btn btn-rosa btn-salvar mt-4">Exibir todas</button>
-                </div>
+            </div>
+            <br>
+            <div class="card-body">
+
+              <div class="form-group col-md-1">
+                <button type="button" class="btn btn-rosa btn-salvar mt-4 "><a href="Caixa.HTML" class="text-decoration-none text-reset"> Abrir caixa</a></button>
+            </div>
+
             </div>
             
             <br>
@@ -223,11 +230,39 @@
 
         
         <div class="form-group">
+              
+          <div class="form-check form-check-inline">
+
+            <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+            <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal1"><i class="bi bi-trash menu-selecionado" ></i></a></td>
           
-            <div class="form-check form-check-inline">
-              <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+            <div class="modal fade" id="meumodal1"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #e6376b;">
+                    <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                  </div>
+          
+                  <div class="modal-body">
+                    <div class="botoes ">
+                      <div class="botao_facial_1 ">
+                          <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+                      </div>
+          
+                      <div class="botao_facial_2 ">
+                          <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                           
+                      </div>
+                     
+                  </div>
+                  </div>
+                  
+                </div>
               </div>
-        </div>
+            </div>
+        
+      </div>
+    </div>
     </th>
     </tbody>
 
@@ -295,11 +330,40 @@
 
         
         <div class="form-group">
+              
+          <div class="form-check form-check-inline">
+
+            <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+            <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal2"><i class="bi bi-trash menu-selecionado" ></i></a></td>
           
-            <div class="form-check form-check-inline">
-              <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+            <div class="modal fade" id="meumodal2"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog ">
+                <div class="modal-content ">
+                  <div class="modal-header" style="background-color: #e6376b;">
+                    <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                    
+                  </div>
+          
+                  <div class="modal-body botoes">
+                    <div class="botoes">
+                      <div class="">
+                          <button type="button" class="bi bi-x-lg btn btn-fechar espaco2"> Não</button> 
+                      </div>
+          
+                      <div class="">
+                          <button type="button" class="bi bi-check-lg btn btn-salvar espaco" data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                           
+                      </div>
+                     
+                  </div>
+                  </div>
+                  
+                </div>
               </div>
-        </div>
+            </div>
+        
+      </div>
+    </div>
     </th>
     </tbody>
 
@@ -364,24 +428,53 @@
             </th>
             <th>
               <div class="form-group">
-
+              
                 <div class="form-check form-check-inline">
-                  <i class="bi bi-trash"></i> <i class="bi bi-pencil-square"></i>
+
+                  <a href="InformacaoDoExpediente.HTML" class="text-reset text-decoration-none"><i class="bi bi-pencil-square menu-selecionado"></i></a></i> 
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#meumodal3"><i class="bi bi-trash menu-selecionado" ></i></a></td>
+                
+                  <div class="modal fade" id="meumodal3"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header" style="background-color: #e6376b;">
+                          <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Deseja mesmo excluir? </h1>
+                        </div>
+                
+                        <div class="modal-body">
+                          <div class="botoes ">
+                            <div class="botao_facial_1 ">
+                                <button type="button" class="bi bi-x-lg btn btn-fechar espaco espaco2"> Não</button> 
+                            </div>
+                
+                            <div class="botao_facial_2 ">
+                                <button type="button" class="bi bi-check-lg btn btn-salvar espaco " data-bs-toggle="modal" data-bs-target="#excluir"> Sim</button>
+                                 
+                            </div>
+                           
+                        </div>
+                        </div>
+                        
+                      </div>
+                    </div>
                   </div>
-              </div>
+                  <div class="modal fade" id="excluir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                      <button type="button" class="bi bi-check-lg btn btn-salvar"> Excluido com sucesso!</button>
+
+                      </div>
+                    </div>
+                  </div>
+              
+            </div>
+          </div>
           </th>
         </tbody>
       </table>  
       
-      <div class="d-flex justify-content-end ms-2">
-        <div class="botoes form-group col-1">
-        </div>
-        <div class="botoes form-group col-1" >
-          <i class="bi bi-chevron-left"></i>
-          <button type="button" class="btn btn-salvar">1</button>
-          <i class="bi bi-chevron-right"></i>
-        </div>
-      </div>
+      
 
           
 </div>

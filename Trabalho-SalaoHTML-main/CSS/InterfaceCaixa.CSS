@@ -99,11 +99,11 @@
 }
 .botoes{
     display: flex;
-    justify-content: space-between; /* Adiciona espaçamento entre os botões */
-    margin-right: 30px; /* Ajuste conforme necessário */
-    margin-left: 30px; /* Ajuste conforme necessário */
+   /* justify-content: space-between; /* Adiciona espaçamento entre os botões 
+    margin-right: 30px; /* Ajuste conforme necessário 
+    margin-left: 30px; /* Ajuste conforme necessário 
     margin-top: 200px;
-   margin-bottom: 100px;
+   margin-bottom: 100px;*/
     
     
 }
@@ -142,4 +142,20 @@
     background-color: #FCD8E9;
     color: #e6376b;
 }
+.menu-selecionado{
+    color: #e6376b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opcao-selecionado{
+    background-color: rgb(255, 234, 243);
+}
+.espaco{
+    margin-left: 30px;
+}
+.espaco2{
+    margin-left: 140px;
+}
+.mama{
 
+    margin-left: 25px;
+}

@@ -2,8 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    padding: 20px;
+    height: 90vh;
+    padding: 5px;
+    
+}
+.menu-selecionado{
+    color: #e6376b;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .font-pink {
@@ -87,4 +92,13 @@
 .boot{
 
     padding: 10px;
+}
+.margem3{
+    margin-left: 60px;
+}
+.espaco{
+    margin-left: 30px;
+}
+.espaco2{
+    margin-left: 140px;
 }
