@@ -3,49 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Pacote</title>
+    <title>Criar novo Orçamento</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="css/estilog.css" rel = "stylesheet">
+    <link href="css/novoOrcamento.css" rel = "stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
    
-    <div class="">
-        <nav class="navbar" style="background-color: #F8367B;">
-            <p class="titulo">Espaço Leide Ellen</p>
-            <p class="perfil"><i class="bi bi-person-circle"></i> Usuario <i class="bi bi-chevron-down"></i></p>
-          </nav>
-    </div>
+    
     
 </head>
 <body>
     <div id="todo">
-        <div class="nav teste">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link cor" aria-current="page" href=""><i class="bi bi-calendar2-check"></i> Agenda <i class="bi bi-chevron-right margem1"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-currency-dollar"></i> Financeiro <i class="bi bi-chevron-right margem2"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-people-fill"></i> Clientes <i class="bi bi-chevron-right margem3"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-graph-up-arrow"></i> Relatórios <i class="bi bi-chevron-right margem4"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-scissors"></i> Serviços <i class="bi bi-chevron-right margem5"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-bag"></i> Produtos <i class="bi bi-chevron-right margem6"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-person-badge-fill"></i> Profissionnais <i class="bi bi-chevron-right margem7"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link cor" href=""><i class="bi bi-gear-fill"></i> Configurar <i class="bi bi-chevron-right margem8"></i></a>
-                </li>
-            </ul>
-        </div>
+        
         <div class="mensagem">
             <div class="container">
                 <div class="container mt-5 ">
@@ -154,7 +122,7 @@
                                             <td>R$30,00</td>
                                             <td>1</td>
                                             <td>R$30,00</td>
-                                            <td><i class="bi bi-trash"></i></td>
+                                            <td><button class="bi bi-trash"></button></td>
         
                                         </tr>
                                         </tbody>
@@ -163,24 +131,26 @@
 
                                 <br>
 
-                                <div class="row botoes">
-                                    <div class="col-4">
+                                <div class="rowbotoes">
+                                    <div class="col-12">
                                         <div class="botao3">
                                             <button type="button" class="btn btn-secondary cor">Total: 30.00R$</button>
                                         </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="botao1">
-                                            <button type="button" class="bi bi-x-lg btn btn-fechar cor">Fechar</button> 
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="botao2">
-                                            <button type="button" class="bi bi-check-lg btn btn-salvar cor"> Salvar</button>
-                                        </div>
-                                    </div>
                                     
+                                    
+                                </div>
+
+                                <div class="row  ">
+                                    <div class="col-3">
+                                        <button type="button" class="bi bi-x-lg btn btn-fechar cor2 botaoPacote">Fechar</button> 
+            
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#salvarmodal" class="bi bi-check-lg btn btn-salvar cor2 botaoPacote"> Salvar</button>
+                                        
+            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -190,6 +160,17 @@
            
         </div>
     </div>
-</body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="salvarmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                
+                <button type="button" class="bi bi-check-lg btn btn-salvar"> Salvo com sucesso!</button>
+                
+            </div>
+        </div>
+    </div>
 
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
