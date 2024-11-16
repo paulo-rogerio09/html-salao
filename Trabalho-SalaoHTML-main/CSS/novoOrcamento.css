@@ -1,0 +1,74 @@
+
+.linha{
+    border-right: 2px solid;
+    border-color: black;
+}
+
+.container{
+    border: 10px;
+    float: right;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.cor2{
+    background-color: #F8367B ;
+    color: white;
+}
+
+.botoes{
+    display: flex;
+
+}
+
+.botaoPacote{
+    margin-top: 20px;
+}
+
+.div1Agend{
+    display: flex;
+}
+
+
+.border{
+     border-radius: 2px;
+     color: black;
+}
+
+.font-pink{
+    color:#F8367B
+}
+
+.card-total{
+    width: 1200px;
+}
+.card-header {
+    background-color: #F8367B;
+    color: #fff;
+    width: 1200px;
+}
+
+.card-body{
+    width: 1200px;
+    height: auto;
+}
+
+#todo{
+    display: flex;
+    margin-left: 10%;
+}
+
+.botao3{
+    margin-top: 20%;
+    margin-left: 80%;
+}
+
+.rowbotoes{
+    display: flex;
+    
+}
+
+#salvarmodal{
+    color: #F8367B;
+}
